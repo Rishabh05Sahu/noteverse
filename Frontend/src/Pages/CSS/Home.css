@@ -1,0 +1,12 @@
+.home-page h1{
+    margin-left: 15%;
+    margin-top: 4%;
+    text-align: center;
+    font-family: sans-serif;
+    width: 70%;
+    color: rgb(87, 167, 221);
+}
+.home-animation{
+    display: flex;
+    justify-content: space-around;
+}

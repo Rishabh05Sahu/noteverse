@@ -1,0 +1,21 @@
+.card-list{
+    margin-left: 23vw;
+    margin-top: -75vh;
+    gap: 3vw;
+   display: flex;
+   width: 70vw;
+   height: 70vh;
+   flex-wrap: wrap; /* Added to allow wrapping */
+   overflow-y: scroll;
+}
+.not-available{
+    margin-left: 20%;
+}
+.not-available p{
+    font-size: 1.7rem;
+}
+.not-available img{
+    margin-left: 34%;
+    margin-top: 10%;
+    height: 25%;
+}

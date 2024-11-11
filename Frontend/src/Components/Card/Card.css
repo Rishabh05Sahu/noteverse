@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    /* border: 1px solid black;
+    border-radius: 5px; */
+    padding: 3px;
+}
+.card-img img{
+    margin-left: 0.5vw;
+    object-fit: cover;
+    height: 12vh;
+    width: 10vw;
+    border-radius: 5px;
+}
+.card-detail{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.3vh;
+    padding-bottom: 0.5vh;
+}
+.card button{
+    font-size: 2vh;
+    font-weight: 600;
+    margin-top: 0.7vh;
+    padding: 0.4vh 0;
+    cursor: pointer;
+}

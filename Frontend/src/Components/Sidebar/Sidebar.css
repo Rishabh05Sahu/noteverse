@@ -1,0 +1,23 @@
+.sidebar{
+    height: 78vh;
+    width: 18%;
+    background-color:rgb(87, 167, 221);
+    padding-top: 8vh;
+    
+    border-radius: 0px 10% 10% 0px;
+}
+.sidebar select{
+    margin:1vh 3vw;
+    margin-top: 3vh;
+    height: 6vh;
+    width: 12vw;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 1vh  2vh;
+    border: none;
+    border-radius: 6%;
+    
+}
+
+  
+

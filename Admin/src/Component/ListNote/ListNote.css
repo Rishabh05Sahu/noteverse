@@ -1,0 +1,36 @@
+.list-page{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 83vh;
+}
+
+.list-note {
+  /* width: 73vw; */
+  height: 90vh; 
+  padding-left: 3vw;
+  /* margin-left: 21vw;
+  margin-top: -100vh; */
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+.listnote-format-main {
+  display: flex;
+  gap: 8vw;
+  font-size: 1.3rem;
+  align-items: center;
+}
+.listnote-format p:nth-child(3) {
+  margin-left: 4vw;
+}
+.listnote-format p:nth-child(4) {
+  margin-left: 3vw;
+}
+.listnote-note-icon {
+  width: 4vw;
+}
+.listnote-remove-icon {
+  width: 2vw;
+  height: 3vh;
+}

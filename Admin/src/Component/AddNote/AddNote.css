@@ -1,0 +1,25 @@
+.add-note{
+    width: 80%;
+
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+#semester{
+    width: 100%;
+    padding: 8px 10px 10px 10px ;
+}
+.sem-unit-detail{
+    display: flex;
+    gap: 10vw;
+}
+.add-note-area{
+    margin-top: 5vh;
+}
+.addnote-btn{
+    width: 5vw;
+}
+.addnote-thumbnail-img{
+    height: 15vh;
+}
