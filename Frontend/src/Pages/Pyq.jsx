@@ -59,7 +59,7 @@ const Pyq = () => {
               ))
             ) : (
               <div className="not-available">
-                <p>No previous year questions available for this subject and semester.</p>
+                <p>No pyq available for this subject and semester.</p>
                 <img src={img} alt="No pyqs available" />
               </div>
             )}

@@ -3,7 +3,6 @@
     width: 18%;
     background-color:rgb(87, 167, 221);
     padding-top: 8vh;
-    
     border-radius: 0px 10% 10% 0px;
 }
 .sidebar select{
@@ -17,6 +16,20 @@
     border: none;
     border-radius: 6%;
     
+}
+@media screen and (max-width: 500px){
+    .sidebar{
+        height: 87vh;
+        width: 25%;
+        border-radius: 0px 17% 17% 0px;
+    }
+    .sidebar select{
+       
+        height: 4vh;
+        width: 18vw;
+        font-size: 10px;
+        padding: 0vh  1vh; 
+    }
 }
 
   

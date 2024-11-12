@@ -1,6 +1,6 @@
 .navbar {
   height: 10vh;
-  width: 94%;
+  width: 94vw;
   background-color: rgb(4, 94, 154);
   display: flex;
   justify-content: space-between;
@@ -25,4 +25,33 @@
   font-size: 1.7rem;
   font-weight: 700;
   font-family: sans-serif;
+}
+@media screen and (max-width: 820px) {
+  .navbar {
+    height: 9vh;
+  }
+  .logo img {
+    height: 3.5rem;
+  }
+  .nav-menu li a {
+    font-size: 1.3rem;
+  }
+  .nav-menu-container {
+    margin-right: 18vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    height: 8.5vh;
+  }
+  .logo img {
+    height: 3rem;
+  }
+  .nav-menu li a {
+    font-size: 1rem;
+  }
+  .nav-menu-container {
+    margin-right: 18vw;
+  }
 }

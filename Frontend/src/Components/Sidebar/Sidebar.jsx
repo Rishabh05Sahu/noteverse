@@ -34,11 +34,7 @@ const Sidebar = () => {
     }
   };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   const subject = event.target.subject.value;
-  //   setSubject(subject);
-  // };
+ 
 
   return (
     <div className='sidebar'>

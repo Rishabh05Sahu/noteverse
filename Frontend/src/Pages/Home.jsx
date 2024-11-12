@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <h1>
-        
+
         One-stop solution for all notes for SVVV students, organized by subject
         and semesters
       </h1>

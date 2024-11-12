@@ -6,11 +6,10 @@
 }
 
 .list-note {
-  /* width: 73vw; */
+ 
   height: 90vh; 
   padding-left: 3vw;
-  /* margin-left: 21vw;
-  margin-top: -100vh; */
+ 
   border: 1px solid black;
   overflow: scroll;
 }
@@ -21,6 +20,7 @@
   font-size: 1.3rem;
   align-items: center;
 }
+
 .listnote-format p:nth-child(3) {
   margin-left: 4vw;
 }

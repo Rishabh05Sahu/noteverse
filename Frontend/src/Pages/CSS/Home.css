@@ -1,12 +1,43 @@
-.home-page h1{
-    margin-left: 15%;
-    margin-top: 4%;
-    text-align: center;
-    font-family: sans-serif;
-    width: 70%;
-    color: rgb(87, 167, 221);
+.home-page h1 {
+  margin-left: 15%;
+  margin-top: 4%;
+  text-align: center;
+  font-family: sans-serif;
+  width: 70%;
+  color: rgb(87, 167, 221);
 }
-.home-animation{
-    display: flex;
-    justify-content: space-around;
+.home-animation {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 820px) {
+    .home-page h1 {
+      margin-top: 10%;
+      font-size: 1.3rem;
+      width: 75%;
+    }
+    .home-animation {
+      margin-top: -7vh;
+      align-items: center;
+    }
+    .home-animation dotlottie-player:nth-child(3),
+    dotlottie-player:nth-child(3) {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .home-page h1 {
+    margin-top: 10%;
+    font-size: 1.3rem;
+    width: 75%;
+  }
+  .home-animation {
+    margin-top: -7vh;
+  }
+  .home-animation dotlottie-player:nth-child(2),
+  dotlottie-player:nth-child(3) {
+    display: none;
+  }
 }

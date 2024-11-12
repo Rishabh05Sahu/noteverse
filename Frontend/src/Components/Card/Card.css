@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    /* border: 1px solid black;
-    border-radius: 5px; */
+    align-items: center;
     padding: 3px;
 }
 .card-img img{
@@ -25,4 +24,21 @@
     margin-top: 0.7vh;
     padding: 0.4vh 0;
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    .card{
+      margin-left: 3vw;
+    
+    }
+    .card-img img{
+        height: 8vh;
+        width: 9vw;   
+    }
+    .card-detail{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5vh;
+        padding-bottom: 0.5vh;
+    }
 }
