@@ -31,6 +31,7 @@ const AddNote = () => {
           label: subject,
         }));
         setSubjects(formattedSubjects);
+        console.log(formattedSubjects)
       } else {
         setSubjects([]);
       }

@@ -45,6 +45,10 @@ const Sidebar = () => {
           <option value="2">2nd sem</option>
           <option value="3">3rd sem</option>
           <option value="4">4th sem</option>
+          <option value="5">5th sem</option>
+          <option value="6">6th sem</option>
+          <option value="7">7th sem</option>
+          <option value="8">8th sem</option>
         </select>
 
         <select value={subject} name="subject" onChange={handleSubjectChange}>
